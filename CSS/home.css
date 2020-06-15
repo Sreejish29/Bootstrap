@@ -1,0 +1,181 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0px auto;
+}
+
+@font-face{
+    font-family: Alternity;
+    src: url(../Assets/Alternity.otf);
+}
+
+
+#intro{
+    height: 100%;
+}
+
+.bg-img{
+    background-image: url(../Assets/bg-game.jpg);
+    filter: brightness(0.60); 
+    width: 100%; 
+    height: 751px; 
+    position: absolute; 
+    background-position: cover; 
+    background-size: cover;
+    z-index: -5;
+}
+
+
+
+
+
+
+/****************** Navigation Design *************************/
+
+
+
+
+
+
+
+.nav-div{
+    background: transparent;
+    color: #4d95ec;
+}
+
+.logo{
+    position: relative;
+    width: 65px;
+    height: 65px;
+    left: 60px;
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: #4d95ec; 
+    background-image: url(“data:image/svg+xml;charset=utf8, %3Csvg viewBox=’0 0 32 32′ xmlns=’http://www.w3.org/2000/svg’%3E%3Cpath stroke=’rgb(77, 149, 236)’ stroke-width=’2′ stroke-linecap=’round’ stroke-miterlimit=’10’ d=’M4 8h24M4 16h24M4 24h24’/%3E%3C/svg%3E”);
+
+} 
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(“data:image/svg+xml;charset=utf8, %3Csvg viewBox=’0 0 32 32′ xmlns=’http://www.w3.org/2000/svg’%3E%3Cpath stroke=’rgb(77, 149, 236)’ stroke-width=’2′ stroke-linecap=’round’ stroke-miterlimit=’10’ d=’M4 8h24M4 16h24M4 24h24’/%3E%3C/svg%3E”);
+}
+
+
+a{
+    color: #4d95ec;
+    font-weight: normal;
+    margin: 0 10px 3px 10px;
+}
+
+a:hover{
+    transition: all ease-in-out 0.4s;
+    border-radius: 5%;
+}
+
+
+
+
+/*************** Top Body Design ****************/
+
+
+
+#top{
+    position: relative;
+    width: 100%;
+    height: 655px;
+    /* background-color: #648dbb; */
+    /* background-image: url(../Assets/bg-game.jpg);
+    background-position: cover;
+    background-size: cover; */
+}
+
+
+
+
+.title{
+    position: relative;
+    top: 5rem;
+}
+
+.t{
+    position: relative;
+    font-family: 'Alternity', sans-serif;
+    color: #5781cf;
+    font-size: 7rem;
+    transition: ease-in-out;
+}
+
+.descript{
+    position: relative;
+    top: 6rem;
+}
+
+.p{
+    /* display: inline-block; */
+    position: relative;
+    font-family: 'Fira Mono', monospace;
+    /* color: #324051; */
+    color: #3c7bc9;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+
+.down-arrow{
+    position: relative;
+    top: 200px;
+}
+
+
+
+.go-down{
+    position: relative;
+    left: 47.5%;
+    width: 80px;
+    height: 80px;
+    /* margin: 0 auto; */
+    animation: up-down 2s linear 1s infinite alternate-reverse;
+}
+
+@keyframes up-down{
+
+    0%   {top:0px;}
+    25%  {bottom: 50px;}
+    50%  {bottom: 0px;}
+    75%  {bottom: 50px;}
+    100% {bottom: 0px;}
+
+  }
+
+
+@media screen and (max-width:599px){
+    .t{
+        font-size: 5rem;
+        /* transition: all ease-in-out 0.4s; */
+    }
+
+    .go-down{
+        width: 40px;
+        height: 40px;
+        transition: all linear 0.4s;
+    }
+}
+
+@media screen and (min-width:600px){
+    .t{
+        font-size: 7rem;
+        transition: all ease-out 0.4s;
+    }
+}
+
+
+
+/*************** Mid Body Design ****************/
+
+
+.mid-div{
+
+    width: 100%;
+    height: 750px;
+
+}
