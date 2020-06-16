@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0px auto;
+}
+
+
+.bg-img{
+    background-image: url(../Assets/game-city.jpg);
+    filter: brightness(0.50); 
+    width: 100%; 
+    height: 651px; 
+    position: absolute; 
+    background-position: cover; 
+    background-size: cover;
+    z-index: -5;
+}
+
+
+.down-arrow{
+    position: relative;
+    /* margin: auto; */
+    top: 70px;
+    left: 45%;
+}
+
+#id{
+    position: relative;
+    right: 5%;
+}
+
+.sub-title{
+    position: relative;
+    top: 16rem;
+}
+
+.dur{
+    display: inline;
+    opacity: 25%;
+    font-size: 1.5rem;
+    
+}
+.packs{
+    display: inline;
+    opacity: 90%;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    font-family: 'Fira Mono', monospace;
+}
