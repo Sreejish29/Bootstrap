@@ -48,7 +48,7 @@ html{
     position: relative;
     width: 65px;
     height: 65px;
-    left: 60px;
+    left: 35px;
 }
 
 a{
@@ -116,7 +116,7 @@ a:hover{
 
 .go-down{
     position: relative;
-    left: 47.5%;
+    left: 47%;
     width: 80px;
     height: 80px;
     /* margin: 0 auto; */
@@ -131,16 +131,20 @@ a:hover{
     75%  {bottom: 50px;}
     100% {bottom: 0px;}
 
-  }
+}
+
+
+
 
 
 @media screen and (max-width:599px){
     .t{
-        font-size: 5rem;
+        font-size: 4rem;
         /* transition: all ease-in-out 0.4s; */
     }
 
     .go-down{
+
         width: 40px;
         height: 40px;
         transition: all linear 0.4s;
