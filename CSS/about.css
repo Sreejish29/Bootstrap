@@ -1,0 +1,26 @@
+.img-slider{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+
+
+.para{
+    text-align: left;
+    width: 800px;
+    position: relative;
+    font-family: 'Fira Mono', monospace;
+    color: #324051;
+    font-size: 1.0rem;
+    font-weight: light;
+    margin: auto;
+    word-spacing: 0.7rem;
+}
+
+@media screen and (max-width: 890px){
+    .para{
+        width: 400px;
+        transition: all ease-in-out 0.7s;
+    }
+}
