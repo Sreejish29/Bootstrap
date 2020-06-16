@@ -1,0 +1,23 @@
+.map-div{
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    z-index: -1;
+}
+
+
+.nav-div-login{
+    background-color: #1c3754;
+}
+
+
+.form{
+    border-radius: 3%;
+    padding: 0 25px 10px 25px;
+    width: 30rem;
+    background-color: whitesmoke;
+}
+
+input[type=email], input[type=password]{
+    width: 20rem;
+}
