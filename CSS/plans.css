@@ -40,28 +40,50 @@ html{
     
 }
 .packs{
-    display: inline;
+    display: inline-block;
+    position: relative;
+    overflow: visible;
     opacity: 85%;
-    
+    font-size: 1rem;
     margin-left: 10px;
     font-family: 'Fira Mono', monospace;
 }
 
 
 
-@media screen and (min-width:574px){
+@media all and (max-device-width: 1018px){
     .packs{
-        font-size: 1.2vmax;
+        font-size: 0.8rem;
+        transition: all ease-in-out 0.2s;
+    }
+}
+
+@media all and (max-device-width: 875px){
+    .packs{
+        font-size: 0.6rem;
+        transition: all ease-in-out 0.2s;
+    }
+}
+
+@media all and (max-device-width: 737px){
+    .packs{
+        font-size: 0.5rem;
+        transition: all ease-in-out 0.2s;
+    }
+}
+
+@media all and (max-device-width: 669px){
+    .packs{
+        font-size: 0.4rem;
+        transition: all ease-in-out 0.2s;
+    }
+}
+
+@media all and (max-device-width: 575px){
+    .packs{
+        font-size: 1rem;
         transition: all ease-in-out 0.2s;
     }
 }
 
 
-@media screen and (max-width: 950px){
-
-    .packs{
-        font-size: 0.6rem;
-        transition: all ease-in-out 0.6s;
-    }
-
-}
