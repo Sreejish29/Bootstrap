@@ -18,9 +18,16 @@
     word-spacing: 0.7rem;
 }
 
-@media screen and (max-width: 890px){
+@media all and (max-device-width: 890px){
     .para{
         width: 400px;
+        transition: all ease-in-out 0.7s;
+    }
+}
+
+@media all and (max-device-width: 415px){
+    .para{
+        width: 250px;
         transition: all ease-in-out 0.7s;
     }
 }
