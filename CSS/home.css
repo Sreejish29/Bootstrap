@@ -41,7 +41,11 @@ html{
 
 .nav-div{
     background: transparent;
-    color: #4d95ec;
+    /* color: #4d95ec; */
+}
+
+.nav-btn{
+    border: 1px solid #6180a1;
 }
 
 .logo{
@@ -148,6 +152,12 @@ a:hover{
         width: 40px;
         height: 40px;
         transition: all linear 0.4s;
+    }
+
+    .logo{
+        width: 65px;
+        height: 65px;
+        transition: all ease-in-out 0.3s;
     }
 }
 
