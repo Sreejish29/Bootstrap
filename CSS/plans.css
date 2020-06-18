@@ -3,6 +3,10 @@ html{
     margin: 0px auto;
 }
 
+body{
+    margin: 0px;
+}
+
 
 .bg-img{
     background-image: url(../Assets/game-city.jpg);
@@ -53,35 +57,35 @@ html{
 
 
 
-@media all and (max-device-width: 1018px){
+@media screen and (max-width: 1018px){
     .packs{
         font-size: 0.8rem;
         transition: all ease-in-out 0.2s;
     }
 }
 
-@media all and (max-device-width: 875px){
+@media screen and (max-width: 875px){
     .packs{
         font-size: 0.6rem;
         transition: all ease-in-out 0.2s;
     }
 }
 
-@media all and (max-device-width: 737px){
+@media screen and (max-width: 737px){
     .packs{
         font-size: 0.5rem;
         transition: all ease-in-out 0.2s;
     }
 }
 
-@media all and (max-device-width: 669px){
+@media screen and (max-width: 669px){
     .packs{
         font-size: 0.4rem;
         transition: all ease-in-out 0.2s;
     }
 }
 
-@media all and (max-device-width: 575px){
+@media screen and (max-width: 575px){
     .packs{
         font-size: 1rem;
         transition: all ease-in-out 0.2s;

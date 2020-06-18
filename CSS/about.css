@@ -6,26 +6,33 @@
 }
 
 
+.abt-bg{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(29,60,93,1) 50%, rgba(24,97,174,1) 100%); 
+    width: 100%;
+}
+
+
 .para{
     text-align: left;
     width: 800px;
     position: relative;
     font-family: 'Fira Mono', monospace;
-    color: #324051;
+    /* color: #324051; */
     font-size: 1.0rem;
     font-weight: light;
     margin: auto;
     word-spacing: 0.7rem;
 }
 
-@media all and (max-device-width: 890px){
+@media screen and (max-width: 890px){
     .para{
         width: 400px;
         transition: all ease-in-out 0.7s;
     }
 }
 
-@media all and (max-device-width: 415px){
+@media screen and (max-width: 415px){
     .para{
         width: 250px;
         transition: all ease-in-out 0.7s;
